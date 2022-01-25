@@ -1,0 +1,95 @@
+/* Component */
+.components{
+    margin-top: 2rem;
+}
+
+.component-1{
+    display: flex;
+    align-items: center;
+}
+
+.component-1 i{
+    font-size: 16px;
+    margin-left: 0.6rem;
+    margin-right: 0.3rem;
+}
+
+.component-1 i,h3{
+    display: inline-block;
+}
+
+.component-1 h3{
+    margin: 0;
+}
+
+
+
+/* Box */
+.components-Box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.box{
+    inline-size: 310px;
+    block-size: 199px;
+    border: 0.5px solid #8F8E8A;
+
+    border-radius: 5px;
+    position: relative;
+    background-image: url('../src/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-content{
+    background-color: white;
+    border-end-end-radius: 5px;
+    border-end-start-radius: 5px;
+    position: absolute;
+    inline-size: 100%;
+    block-size: 44px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.box-content i{
+    margin: 0 0.5rem;
+}
+.box-content a{
+    border-bottom: 0.1px solid #8F8E8A;
+}
+
+.box-content a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.new{
+    background-image: none;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new i{
+    cursor: pointer;
+}
+
+@media screen and (max-width:953px){
+    .components-Box{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:660px){
+    .box{
+        inline-size: 400px;
+        block-size: 220px;
+    }
+}

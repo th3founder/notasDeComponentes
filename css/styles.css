@@ -1,0 +1,24 @@
+@import url('./icons.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./components.css');
+@import url('./addNew.css');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Inter', sans-serif;
+}
+
+i{
+    color: #37352F;
+}
+
+a{
+    text-decoration: none;
+    color: #37352F;
+}
