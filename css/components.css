@@ -80,6 +80,42 @@
     cursor: pointer;
 }
 
+/* IMG IN BOXES */
+.box1{
+    background-image: url('../src/p1.png');
+    object-fit: cover;
+}
+
+.box2{
+    background-image: url('../src/p2.png');
+    object-fit: cover;
+}
+.box3{
+    background-image: url('../src/p3.png');
+    object-fit: cover;
+}
+.box4{
+    background-image: url('../src/p4.png');
+    object-fit: cover;
+}
+.box5{
+    background-image: url('../src/p5.png');
+    object-fit: cover;
+}
+.box6{
+    background-image: url('../src/p6.png');
+    object-fit: cover;
+}
+.box7{
+    background-image: url('../src/p7.png');
+    object-fit: cover;
+}
+
+
+
+
+
+
 @media screen and (max-width:953px){
     .components-Box{
         justify-content: center;

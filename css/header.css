@@ -31,7 +31,7 @@ header{
     bottom: -2rem;
 }
 
-@media screen and (min-width:320px){
+@media screen and (max-width:560px){
     .header-top{
         display: none;
     }
